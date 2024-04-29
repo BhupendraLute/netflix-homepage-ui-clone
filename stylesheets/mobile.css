@@ -1,0 +1,161 @@
+@media screen and (max-width: 748px) {
+    nav {
+        padding-top: 1rem;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .nav-items {
+        gap: 0.2rem;
+    }
+
+    .hero {
+        position: relative;
+        margin: 3rem auto 0;
+        width: 100%;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .hero :nth-child(2) {
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+    .hero :nth-child(3) {
+        font-size: 1rem;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .get-started {
+        gap: 0.5rem;
+        width: 80%;
+        flex-wrap: wrap;
+    }
+
+    .get-started .input-email {
+        width: 100%;
+    }
+
+
+    .get-started .btn-hero {
+        padding: 6px 8px;
+    }
+
+    /* *************** Header End *************** */
+
+    .features .feature .left h1 {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .features .feature .right {
+        width: 100%;
+    }
+
+
+    .features .feature .right .download {
+        bottom: 3rem;
+        padding: 0.2rem;
+    }
+
+    .features .feature .right .download .thumbnail {
+        width: 3rem;
+    }
+
+
+    .features .feature .right .download .title {
+        padding-right: 1rem;
+    }
+
+    .features .feature .right .download .title h3 {
+        font-size: 0.6rem;
+    }
+
+    .features .feature .right .download .title p {
+        font-size: 0.4rem;
+    }
+
+    .features .feature .right .download .icon {
+        width: 40px;
+    }
+
+    /* ************ Features End ************ */
+
+
+    .faqs-container {
+        width: 92%;
+    }
+
+    .faqs-container h1 {
+        font-size: 2.2rem;
+        font-weight: 800;
+    }
+
+    /* *************** Accordian End ************* */
+
+
+    .subscription {
+        width: 80%;
+        margin: 2rem auto;
+    }
+
+    .subscription p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+
+    /* ************ FAQS End ************ */
+
+    footer {
+        width: 100%;
+        padding: 1rem 0;
+        gap: 1rem;
+    }
+
+    .footer-menu {
+        gap: 1rem;
+    }
+
+
+    .footer-menu ul li {
+        margin-bottom: 8px;
+    }
+
+    /* ************** Footer End ************** */
+
+
+}
+
+@media screen and (max-width: 390px) {
+
+    header {
+        height: 90vh;
+    }
+
+    .btn-orange {
+        padding: 6px 14px;
+        font-size: 0.6rem;
+    }
+
+    .remove {
+        display: none !important;
+    }
+
+    .accordion-button {
+        padding: 1.2rem;
+        font-size: 1rem !important;
+    }
+
+    .accordion-body {
+        font-size: 0.8rem !important;
+    }
+}

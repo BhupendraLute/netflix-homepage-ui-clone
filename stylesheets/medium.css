@@ -1,0 +1,76 @@
+@media screen and (max-width: 1224px) {
+
+nav {
+	width: 98%;
+}
+
+
+/* ********* nav end ******** */
+
+.hero {
+	margin: 11rem auto 0;
+	width: 85%;
+}
+
+.hero h1 {
+	font-size: 2.8rem;
+}
+
+.hero :nth-child(2) {
+	font-size: 1.3rem;
+}
+
+.hero :nth-child(3) {
+	font-size: 1.2rem;
+}
+
+.get-started {
+	width: 65%;
+}
+
+.get-started .btn-hero {
+	padding: 8px;
+}
+
+/* *************** Header End *************** */
+
+.features .feature {
+	width: 95%;
+}
+
+.features .feature .left h1 {
+	font-size: 2.8rem;
+}
+
+.features .feature .left p {
+	font-size: 1.2rem;
+}
+
+.features .feature .right .show {
+	height: 46%;
+}
+
+
+/* ************ odd features end ************ */
+
+/* ************ Features End ************ */
+
+
+.faqs-container {
+	width: 90%;
+}
+
+.subscription {
+	width: 90%;
+}
+
+/* *************** Subscription End ************* */
+
+
+footer {
+	width: 98%;
+}
+
+/* ************** Footer End ************** */
+
+}

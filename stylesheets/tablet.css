@@ -1,0 +1,161 @@
+@media screen and (max-width: 940px) {
+
+header {
+	height: 80vh;
+}
+
+
+.logo {
+	width: 130px;
+}
+
+/* ********* nav end ******** */
+
+
+.hero {
+	margin: 8rem auto 0;
+}
+
+.hero h1 {
+	font-size: 2rem;
+}
+
+.hero :nth-child(2) {
+	font-size: 1.3rem;
+	font-weight: 400;
+}
+
+.hero :nth-child(3) {
+	font-size: 1.2rem;
+	font-weight: 400;
+}
+
+.get-started {
+	width: 80%;
+}
+
+/* *************** Header End *************** */
+
+.features .feature {
+    flex-direction: column;
+	width: 95%;
+}
+
+.features .feature .left {
+	width: 100%;
+}
+
+.features .feature .left h1 {
+	font-size: 2.2rem;
+	font-weight: 800;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.features .feature .left p {
+	font-size: 1.2rem;
+	font-weight: 400;
+    text-align: center;
+}
+
+.features .feature .right {
+	width: 100%;
+}
+
+.features .feature .right .tv {
+	z-index: 1;
+	width: 80%;
+}
+
+.children {
+    width: 80% !important;
+}
+
+.features .feature .right .show {
+	top: 22%;
+	left: 20%; 
+	width: 60%; 
+	height: 52%; 
+}
+
+.features .feature .right .show-2 {
+	top: 12%;
+	left: 28%;
+	width: 45%;
+	height: 46%; 
+}
+
+/* ************ odd features end ************ */
+
+.column {
+    flex-direction: column !important;
+}
+
+.features .feature .right .mobile {
+	width: 65%;
+    margin-bottom: 2rem;
+}
+
+.features .feature .right .download {
+	bottom: 4rem;
+	padding: 0.5rem;
+	border-radius: 8px;
+}
+
+.features .feature .right .download .thumbnail {
+	width: 3.4rem;
+}
+
+
+.features .feature .right .download .title {
+	padding-right: 5rem;
+}
+
+/* ************ Features End ************ */
+
+.faqs-container {
+	width: 92%; 
+}
+
+.faqs-container h1 {
+	font-size: 2.8rem;
+	font-weight: 800;
+}
+
+
+.accordion-button {
+	padding: 1.4rem;
+}
+
+/* *************** Accordian End ************* */
+
+.subscription p {
+	font-size: 1.3rem; 
+}
+
+/* ************ FAQS End ************ */
+
+footer {
+	width: 95%;
+	padding: 2rem 0;
+}
+
+.footer-menu {
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1rem;
+}
+
+.footer-menu ul {
+	width: 100%;
+}
+
+.footer-menu ul li {
+	margin-bottom: 10px;
+}
+
+footer p  {
+	margin-left: 1.2rem;
+}
+/* ************** Footer End ************** */
+
+}
